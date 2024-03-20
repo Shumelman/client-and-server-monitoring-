@@ -1,0 +1,35 @@
+﻿  Сервер.cpp
+E:\Свое\Тестирование\Клиент-серверное приложение для мониторинга рабочей активности\Сервер\Сервер\Сервер.cpp(28,16): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(4537,18): warning C4244: =: преобразование "TCHAR" в "char", возможна потеря данных
+  (компиляция исходного файла "Сервер.cpp")
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(4537,18):
+  контекст создания экземпляра шаблона (сначала самый старый)
+  	E:\Свое\Тестирование\Клиент-серверное приложение для мониторинга рабочей активности\Сервер\Сервер\Сервер.cpp(53,38):
+  	выполняется компиляция ссылки на экземпляр шаблон функции "std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<TCHAR*,0>(_Iter,_Iter,const _Alloc &)"
+          with
+          [
+              _Iter=TCHAR *,
+              _Alloc=std::allocator<char>
+          ]
+  		E:\Свое\Тестирование\Клиент-серверное приложение для мониторинга рабочей активности\Сервер\Сервер\Сервер.cpp(53,25):
+  		см. первую ссылку на "std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string" в "updateClientInfo"
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xstring(2600,17):
+  	выполняется компиляция ссылки на экземпляр шаблон функции "void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<TCHAR*,TCHAR*,_Size_type>(_Iter,const _Sent,_Size)"
+          with
+          [
+              _Size_type=unsigned __int64,
+              _Iter=TCHAR *,
+              _Sent=TCHAR *,
+              _Size=unsigned __int64
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xstring(2756,18):
+  	выполняется компиляция ссылки на экземпляр шаблон функции "_OutIt *std::_Copy_n_unchecked4<TCHAR*,_Size,char*>(_InIt,_SizeTy,_OutIt)"
+          with
+          [
+              _OutIt=char *,
+              _Size=unsigned __int64,
+              _InIt=TCHAR *,
+              _SizeTy=unsigned __int64
+          ]
+  
+  Сервер.vcxproj -> E:\Свое\Тестирование\Клиент-серверное приложение для мониторинга рабочей активности\Сервер\x64\Debug\Сервер.exe
